@@ -60,12 +60,4 @@ Repository **Settings → Pages** should use **GitHub Actions** as the source fo
 
 After a successful workflow run, the published URL appears on the workflow summary and under **Settings → Pages**. It typically follows:
 
-`https://<your-username>.github.io/<repository-name>/`
-
-(Adjust if you use a custom domain.)
-
----
-
-## License
-
-Add a license here if you publish the repo publicly.
+`https://hardik-singh-coding.github.io/Frontend_Project/`
