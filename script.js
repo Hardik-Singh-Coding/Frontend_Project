@@ -9,7 +9,7 @@ const negativeWords = ["sad", "bad", "angry", "hate", "awful", "terrible", "horr
 // Link these three areas together
 analyzeBtn.addEventListener('click', () => {
     const text = userInput.value.trim().toLowerCase();
-    const words = text.replace(/^a-z\s/g, '').split(/\s+/).filter(Boolean);
+    const words = text.replace(/[^a-z\s]/g, '').split(/\s+/).filter(Boolean);
     let score = 0;
     words.forEach((word) => {
         if (positiveWords.includes(word)) {
