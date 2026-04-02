@@ -1,0 +1,13 @@
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# macOS Finder thumbnails
+._*
+
+# Logs
+*.log
+
+# Editor/IDE
+.vscode/
+
